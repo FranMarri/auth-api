@@ -1,0 +1,61 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "auth-api",
+    "collectionId": "d9987723-1ae1-4ac6-837a-3c011c422498",
+    "dateExported": "2024-05-21T22:51:24.758Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e73fd40d-62cc-4e3d-b577-5f9c0e1a2fe9",
+            "colId": "d9987723-1ae1-4ac6-837a-3c011c422498",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-21T22:46:19.663Z",
+            "modified": "2024-05-21T22:48:57.866Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"Diego\",\n  \"email\":\"Diego@gmail.com\",\n  \"password\":\"aa1010\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e1396d10-b207-4e9d-9e79-7877d1717b29",
+            "colId": "d9987723-1ae1-4ac6-837a-3c011c422498",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-21T22:47:36.831Z",
+            "modified": "2024-05-21T22:48:05.041Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"fran@gmail.com\",\n  \"password\":\"123456\"\n}\n  \n",
+                "form": []
+            }
+        },
+        {
+            "_id": "208e0ce1-c01c-48c6-b331-b0e5c4bf8722",
+            "colId": "d9987723-1ae1-4ac6-837a-3c011c422498",
+            "containerId": "",
+            "name": "users",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T22:49:22.751Z",
+            "modified": "2024-05-21T22:49:39.561Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJGcmFuIE1hcnJpIiwiZW1haWwiOiJmcmFuQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFhMeEhtUXZUVXUzVFJWQk02Um9OR2VEZ1BZYVFnSTFQTDBVU0NyVWozSG1SVGFpYTJ3Si42IiwiY3JlYXRlZEF0IjoiMjAyNC0wNS0yMVQyMjo0NzoyNi4xMjZaIiwidXBkYXRlZEF0IjoiMjAyNC0wNS0yMVQyMjo0NzoyNi4xMjZaIiwiaWF0IjoxNzE2MzMxNjg1LCJleHAiOjE3MTYzMzUyODV9.XUurK0ON831dw9buGlP2a9rvnfzgoW1Et1QbhwTfcjw"
+            }
+        }
+    ],
+    "ref": "Z3eD3WZAzUtk3alwpp9Fz2lmeTA4ZcT5CpoRoTVFcf5uh9d7jxN-lJd2nRUqTHpWRnakR-qCx_XBoR_EtMaxXw"
+}
